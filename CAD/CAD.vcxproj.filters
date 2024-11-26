@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="图形">
+      <UniqueIdentifier>{8617ecb7-aec2-427b-a4ec-bb6c5d40148e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="图形\BASE">
+      <UniqueIdentifier>{5e87f038-92da-45f0-b798-3251ff2e8261}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="图形\线">
+      <UniqueIdentifier>{f50b2d9f-f38a-481a-b6c2-59fe4c928dd8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="图形\矩形">
+      <UniqueIdentifier>{e02b6b5c-5cf8-42a8-bdbe-c13bc44840bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="图形\椭圆">
+      <UniqueIdentifier>{ac41455a-d07b-4405-845d-d5c2fdc05846}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="绘图">
+      <UniqueIdentifier>{21a33f2f-f1d8-4a5b-8f13-cc5d8f0d9f39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="画笔画刷">
+      <UniqueIdentifier>{90599de6-fd88-4906-a7d7-1226d71f0b2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="画笔画刷\画笔">
+      <UniqueIdentifier>{14bb67ac-abe3-4b4a-b157-3cd989a0ff15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="画笔画刷\画刷">
+      <UniqueIdentifier>{853ba465-c0a4-4305-9b7d-3ac758006ef6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="撤回与重做">
+      <UniqueIdentifier>{beb23ab6-1d83-4635-adc6-f6a1e4c46f13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="保存与读取">
+      <UniqueIdentifier>{942051c5-b489-4a16-af97-9cd09d6507d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="绘图界面">
+      <UniqueIdentifier>{8b0802da-cd80-4b60-bc75-117b80b0d171}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CAD.h">
+      <Filter>源文件\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h">
+      <Filter>源文件\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>源文件\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>源文件\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>源文件\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CShapeBase.h">
+      <Filter>图形\BASE</Filter>
+    </ClInclude>
+    <ClInclude Include="CADView.h">
+      <Filter>绘图</Filter>
+    </ClInclude>
+    <ClInclude Include="CLine.h">
+      <Filter>图形\线</Filter>
+    </ClInclude>
+    <ClInclude Include="CRectangle.h">
+      <Filter>图形\矩形</Filter>
+    </ClInclude>
+    <ClInclude Include="CEllipse.h">
+      <Filter>图形\椭圆</Filter>
+    </ClInclude>
+    <ClInclude Include="Rotate.h">
+      <Filter>图形</Filter>
+    </ClInclude>
+    <ClInclude Include="CMyColorButton.h">
+      <Filter>画笔画刷</Filter>
+    </ClInclude>
+    <ClInclude Include="CPaintDlg.h">
+      <Filter>画笔画刷\画笔</Filter>
+    </ClInclude>
+    <ClInclude Include="CBrushDlg.h">
+      <Filter>画笔画刷\画刷</Filter>
+    </ClInclude>
+    <ClInclude Include="CBackTrack.h">
+      <Filter>撤回与重做</Filter>
+    </ClInclude>
+    <ClInclude Include="CADDoc.h">
+      <Filter>保存与读取</Filter>
+    </ClInclude>
+    <ClInclude Include="CPaintView.h">
+      <Filter>绘图界面</Filter>
+    </ClInclude>
+    <ClInclude Include="CTreePaintView.h">
+      <Filter>绘图界面</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>绘图界面</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CAD.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CShapeBase.cpp">
+      <Filter>图形\BASE</Filter>
+    </ClCompile>
+    <ClCompile Include="CADView.cpp">
+      <Filter>绘图</Filter>
+    </ClCompile>
+    <ClCompile Include="CLine.cpp">
+      <Filter>图形\线</Filter>
+    </ClCompile>
+    <ClCompile Include="CRectangle.cpp">
+      <Filter>图形\矩形</Filter>
+    </ClCompile>
+    <ClCompile Include="CEllipse.cpp">
+      <Filter>图形\椭圆</Filter>
+    </ClCompile>
+    <ClCompile Include="CMyColorButton.cpp">
+      <Filter>画笔画刷</Filter>
+    </ClCompile>
+    <ClCompile Include="CPaintDlg.cpp">
+      <Filter>画笔画刷\画笔</Filter>
+    </ClCompile>
+    <ClCompile Include="CBrushDlg.cpp">
+      <Filter>画笔画刷\画刷</Filter>
+    </ClCompile>
+    <ClCompile Include="CBackTrack.cpp">
+      <Filter>撤回与重做</Filter>
+    </ClCompile>
+    <ClCompile Include="CADDoc.cpp">
+      <Filter>保存与读取</Filter>
+    </ClCompile>
+    <ClCompile Include="CPaintView.cpp">
+      <Filter>绘图界面</Filter>
+    </ClCompile>
+    <ClCompile Include="CTreePaintView.cpp">
+      <Filter>绘图界面</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>绘图界面</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="CAD.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\CAD.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\CADDoc.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\CAD.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Toolbar.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

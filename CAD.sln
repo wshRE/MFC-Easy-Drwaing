@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32516.85
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CAD", "CAD\CAD.vcxproj", "{7BE79276-4504-4656-A7EA-4CAEA24A1CBE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7BE79276-4504-4656-A7EA-4CAEA24A1CBE}.Debug|x64.ActiveCfg = Debug|x64
+		{7BE79276-4504-4656-A7EA-4CAEA24A1CBE}.Debug|x64.Build.0 = Debug|x64
+		{7BE79276-4504-4656-A7EA-4CAEA24A1CBE}.Debug|x86.ActiveCfg = Debug|Win32
+		{7BE79276-4504-4656-A7EA-4CAEA24A1CBE}.Debug|x86.Build.0 = Debug|Win32
+		{7BE79276-4504-4656-A7EA-4CAEA24A1CBE}.Release|x64.ActiveCfg = Release|x64
+		{7BE79276-4504-4656-A7EA-4CAEA24A1CBE}.Release|x64.Build.0 = Release|x64
+		{7BE79276-4504-4656-A7EA-4CAEA24A1CBE}.Release|x86.ActiveCfg = Release|Win32
+		{7BE79276-4504-4656-A7EA-4CAEA24A1CBE}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D2BF6366-2E48-41AA-86EB-95AAC9999E27}
+	EndGlobalSection
+EndGlobal
